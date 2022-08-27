@@ -17,7 +17,7 @@ int main()
     SDL_CreateWindowAndRenderer(width, height, 0, &window, &renderer);
     SDL_SetWindowTitle(window, "Audio Visualizer");
 
-    AudioFile<double> file = AudioFile<double>("./audio/SurvivorsGuilt.wav");
+    AudioFile<double> file = AudioFile<double>("./audio/Bound2.wav");
 
     std::vector<double> samplesChannel1 = file.samples[0];
     std::vector<double> samplesChannel2 = file.samples[1];
