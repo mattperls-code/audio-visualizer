@@ -1,4 +1,4 @@
-# C++ Audio Visualizer
+# Audio Visualizer
 
 
 ## Erase Me
